@@ -450,46 +450,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👤 Author
-
-**Priscilla Jospin G**
-- GitHub: [@PriscillajospinG](https://github.com/PriscillajospinG)
-
-## 🙏 Acknowledgments
-
-- 🤗 **HuggingFace** for the incredible Transformers library
-- 🧠 **Google Research** for BERT model and groundbreaking research
-- 📚 **PyTorch Team** for the flexible deep learning framework
-- 🎨 **Streamlit** for the amazing web app framework
-- 💻 **Open Source Community** for various tools and libraries
-- 📖 **Research Papers**:
-  - [BERT: Pre-training of Deep Bidirectional Transformers](https://arxiv.org/abs/1810.04805)
-  - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
-
-## 📚 References
-
-1. Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. *arXiv preprint arXiv:1810.04805*.
-2. Vaswani, A., et al. (2017). Attention is all you need. *Advances in neural information processing systems*, 30.
-
-## 📞 Contact & Support
-
-- 📧 **Issues**: Open an issue on [GitHub](https://github.com/PriscillajospinG/next-sentence-predictor-BERT/issues)
-- 💬 **Discussions**: Start a discussion in the Discussions tab
-- 🐛 **Bug Reports**: Please include detailed steps to reproduce
-
-## ⭐ Show Your Support
-
-If you found this project helpful or interesting, please consider:
-- ⭐ Starring the repository
-- 🍴 Forking for your own experiments
-- 📢 Sharing with others who might benefit
-- 💬 Providing feedback or suggestions
-
----
 
 <div align="center">
 
