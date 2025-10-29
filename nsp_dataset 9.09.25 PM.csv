@@ -1,0 +1,601 @@
+sentence_a,sentence_b,label
+The dessert was sweet and creamy.,He made a fresh fruit salad.,0
+The coach praised the best performer.,A strong wind blew across the field.,1
+The computer crashed during the meeting.,The robot performed tasks automatically.,0
+He developed a mobile application.,He missed the penalty kick narrowly.,1
+He submitted his project on time.,The library was full of readers.,0
+Fans cheered loudly during the match.,She wrote an essay on climate change.,1
+She packed her bags for the vacation.,They visited the Eiffel Tower in Paris.,0
+The temperature dropped suddenly.,The player trained hard every day.,1
+He clicked pictures at the beach.,He walked through the narrow streets of Venice.,0
+He scored the highest marks in science.,The sky was clear and blue.,1
+He booked a flight to New York.,The bus stopped near the city square.,0
+She baked a chocolate cake.,The bus stopped near the city square.,1
+He scored the highest marks in science.,The principal addressed the assembly.,0
+It snowed for three days continuously.,The pasta was cooked perfectly.,1
+It rained heavily throughout the night.,The sun shone brightly this morning.,0
+The robot performed tasks automatically.,The weather forecast predicted a storm.,1
+The pasta was cooked perfectly.,The dessert was sweet and creamy.,0
+He submitted his project on time.,They installed the latest software update.,1
+They enjoyed dinner at the restaurant.,He made a fresh fruit salad.,0
+Thunder and lightning scared the children.,He bought a new smartphone yesterday.,1
+He missed the penalty kick narrowly.,Fans cheered loudly during the match.,0
+They enjoyed dinner at the restaurant.,Fans cheered loudly during the match.,1
+They installed the latest software update.,He developed a mobile application.,0
+The temperature dropped suddenly.,He scored the highest marks in science.,1
+The train arrived at the station on time.,He booked a flight to New York.,0
+She played tennis with great skill.,Thunder and lightning scared the children.,1
+The dessert was sweet and creamy.,He ordered a burger with fries.,0
+They installed the latest software update.,He missed the penalty kick narrowly.,1
+He missed the penalty kick narrowly.,The coach praised the best performer.,0
+Fans cheered loudly during the match.,She wrote an essay on climate change.,1
+She baked a chocolate cake.,They shared a plate of noodles.,0
+The students attended the lecture.,They won the championship trophy.,1
+They participated in the school exhibition.,The library was full of readers.,0
+They shared a plate of noodles.,The computer crashed during the meeting.,1
+She wrote an essay on climate change.,The library was full of readers.,0
+She attended a workshop on AI.,He clicked pictures at the beach.,1
+The library was full of readers.,She solved all the math problems correctly.,0
+It rained heavily throughout the night.,The teacher explained the lesson clearly.,1
+He missed the penalty kick narrowly.,The team celebrated after scoring.,0
+She learned how to code in Python.,He made a fresh fruit salad.,1
+He submitted his project on time.,They participated in the school exhibition.,0
+Thunder and lightning scared the children.,She played tennis with great skill.,1
+The sun shone brightly this morning.,Dark clouds gathered above the city.,0
+He made a fresh fruit salad.,He kicked the football into the goal.,1
+They installed the latest software update.,He fixed the bug in the program.,0
+Dark clouds gathered above the city.,He submitted his project on time.,1
+The soup was warm and delicious.,She baked a chocolate cake.,0
+He developed a mobile application.,The team celebrated after scoring.,1
+Thunder and lightning scared the children.,The sky was clear and blue.,0
+He fixed the bug in the program.,She wrote an essay on climate change.,1
+They participated in the school exhibition.,He submitted his project on time.,0
+The pasta was cooked perfectly.,The train arrived at the station on time.,1
+He submitted his project on time.,The library was full of readers.,0
+The weather forecast predicted a storm.,They visited the Eiffel Tower in Paris.,1
+A strong wind blew across the field.,Dark clouds gathered above the city.,0
+She added extra cheese to the pizza.,A rainbow appeared after the rain.,1
+The principal addressed the assembly.,She wrote an essay on climate change.,0
+The teacher explained the lesson clearly.,The pasta was cooked perfectly.,1
+She solved all the math problems correctly.,He submitted his project on time.,0
+The principal addressed the assembly.,The soup was warm and delicious.,1
+She packed her bags for the vacation.,He booked a flight to New York.,0
+The sun shone brightly this morning.,He made a fresh fruit salad.,1
+Dark clouds gathered above the city.,It snowed for three days continuously.,0
+The robot performed tasks automatically.,Thunder and lightning scared the children.,1
+The temperature dropped suddenly.,Dark clouds gathered above the city.,0
+He developed a mobile application.,The library was full of readers.,1
+They participated in the school exhibition.,She studied all night for her exams.,0
+He booked a flight to New York.,The weather forecast predicted a storm.,1
+Fans cheered loudly during the match.,The coach praised the best performer.,0
+He missed the penalty kick narrowly.,He fixed the bug in the program.,1
+She added extra cheese to the pizza.,He ordered a burger with fries.,0
+The website was built using React.,It rained heavily throughout the night.,1
+She studied all night for her exams.,The library was full of readers.,0
+The teacher explained the lesson clearly.,The player trained hard every day.,1
+It rained heavily throughout the night.,The sky was clear and blue.,0
+The bus stopped near the city square.,The weather forecast predicted a storm.,1
+The sun shone brightly this morning.,It snowed for three days continuously.,0
+The temperature dropped suddenly.,She played tennis with great skill.,1
+The referee blew the final whistle.,They practiced shooting before the game.,0
+They enjoyed dinner at the restaurant.,The bus stopped near the city square.,1
+The train arrived at the station on time.,They explored the ancient ruins.,0
+The referee blew the final whistle.,He clicked pictures at the beach.,1
+She packed her bags for the vacation.,They visited the Eiffel Tower in Paris.,0
+She traveled to Japan last summer.,He kicked the football into the goal.,1
+They explored the ancient ruins.,He clicked pictures at the beach.,0
+They won the championship trophy.,They shared a plate of noodles.,1
+He fixed the bug in the program.,The website was built using React.,0
+The soup was warm and delicious.,A strong wind blew across the field.,1
+The sun shone brightly this morning.,The weather forecast predicted a storm.,0
+She studied all night for her exams.,The referee blew the final whistle.,1
+He developed a mobile application.,He bought a new smartphone yesterday.,0
+The robot performed tasks automatically.,They practiced shooting before the game.,1
+The weather forecast predicted a storm.,The temperature dropped suddenly.,0
+They explored the ancient ruins.,Thunder and lightning scared the children.,1
+She traveled to Japan last summer.,He walked through the narrow streets of Venice.,0
+She attended a workshop on AI.,They won the championship trophy.,1
+She wrote an essay on climate change.,The principal addressed the assembly.,0
+They installed the latest software update.,He ordered a burger with fries.,1
+They enjoyed the mountain view from the hotel.,The bus stopped near the city square.,0
+It snowed for three days continuously.,He submitted his project on time.,1
+He ordered a burger with fries.,She added extra cheese to the pizza.,0
+She packed her bags for the vacation.,The principal addressed the assembly.,1
+The computer crashed during the meeting.,He developed a mobile application.,0
+The soup was warm and delicious.,The train arrived at the station on time.,1
+The sky was clear and blue.,It rained heavily throughout the night.,0
+He kicked the football into the goal.,She attended a workshop on AI.,1
+He walked through the narrow streets of Venice.,He clicked pictures at the beach.,0
+He tried sushi for the first time.,She traveled to Japan last summer.,1
+The dessert was sweet and creamy.,She added extra cheese to the pizza.,0
+She solved all the math problems correctly.,They explored the ancient ruins.,1
+The temperature dropped suddenly.,It rained heavily throughout the night.,0
+The principal addressed the assembly.,The pasta was cooked perfectly.,1
+They explored the ancient ruins.,She packed her bags for the vacation.,0
+He fixed the bug in the program.,The students attended the lecture.,1
+They installed the latest software update.,The robot performed tasks automatically.,0
+Dark clouds gathered above the city.,She traveled to Japan last summer.,1
+They won the championship trophy.,The team celebrated after scoring.,0
+They enjoyed dinner at the restaurant.,The temperature dropped suddenly.,1
+They participated in the school exhibition.,The teacher explained the lesson clearly.,0
+They practiced shooting before the game.,The library was full of readers.,1
+The computer crashed during the meeting.,The website was built using React.,0
+She studied all night for her exams.,Thunder and lightning scared the children.,1
+Fans cheered loudly during the match.,They practiced shooting before the game.,0
+Fans cheered loudly during the match.,He submitted his project on time.,1
+The robot performed tasks automatically.,She learned how to code in Python.,0
+She packed her bags for the vacation.,Thunder and lightning scared the children.,1
+A rainbow appeared after the rain.,The temperature dropped suddenly.,0
+She wrote an essay on climate change.,The weather forecast predicted a storm.,1
+The player trained hard every day.,He missed the penalty kick narrowly.,0
+He kicked the football into the goal.,They visited the Eiffel Tower in Paris.,1
+He ordered a burger with fries.,The dessert was sweet and creamy.,0
+The sky was clear and blue.,They participated in the school exhibition.,1
+He tried sushi for the first time.,The soup was warm and delicious.,0
+She added extra cheese to the pizza.,Thunder and lightning scared the children.,1
+They participated in the school exhibition.,The teacher explained the lesson clearly.,0
+He fixed the bug in the program.,It rained heavily throughout the night.,1
+She wrote an essay on climate change.,She solved all the math problems correctly.,0
+The sun shone brightly this morning.,He made a fresh fruit salad.,1
+She studied all night for her exams.,She solved all the math problems correctly.,0
+The sun shone brightly this morning.,He kicked the football into the goal.,1
+The students attended the lecture.,They participated in the school exhibition.,0
+The soup was warm and delicious.,He scored the highest marks in science.,1
+The soup was warm and delicious.,The dessert was sweet and creamy.,0
+He developed a mobile application.,The coach praised the best performer.,1
+They installed the latest software update.,They discussed cybersecurity issues.,0
+The website was built using React.,Thunder and lightning scared the children.,1
+He developed a mobile application.,He bought a new smartphone yesterday.,0
+They installed the latest software update.,The team celebrated after scoring.,1
+They enjoyed dinner at the restaurant.,The soup was warm and delicious.,0
+The coach praised the best performer.,They participated in the school exhibition.,1
+They explored the ancient ruins.,He booked a flight to New York.,0
+They discussed cybersecurity issues.,He clicked pictures at the beach.,1
+It rained heavily throughout the night.,A rainbow appeared after the rain.,0
+They won the championship trophy.,He walked through the narrow streets of Venice.,1
+The referee blew the final whistle.,Fans cheered loudly during the match.,0
+She wrote an essay on climate change.,They visited the Eiffel Tower in Paris.,1
+A strong wind blew across the field.,It rained heavily throughout the night.,0
+She solved all the math problems correctly.,The bus stopped near the city square.,1
+She added extra cheese to the pizza.,The pasta was cooked perfectly.,0
+They shared a plate of noodles.,She played tennis with great skill.,1
+A rainbow appeared after the rain.,Thunder and lightning scared the children.,0
+The team celebrated after scoring.,They shared a plate of noodles.,1
+The weather forecast predicted a storm.,The sun shone brightly this morning.,0
+He walked through the narrow streets of Venice.,The temperature dropped suddenly.,1
+They visited the Eiffel Tower in Paris.,They explored the ancient ruins.,0
+She added extra cheese to the pizza.,The weather forecast predicted a storm.,1
+The principal addressed the assembly.,The library was full of readers.,0
+She learned how to code in Python.,She studied all night for her exams.,1
+The dessert was sweet and creamy.,They enjoyed dinner at the restaurant.,0
+The teacher explained the lesson clearly.,The computer crashed during the meeting.,1
+She learned how to code in Python.,She attended a workshop on AI.,0
+He ordered a burger with fries.,They won the championship trophy.,1
+They discussed cybersecurity issues.,He developed a mobile application.,0
+The robot performed tasks automatically.,The soup was warm and delicious.,1
+Thunder and lightning scared the children.,Dark clouds gathered above the city.,0
+They visited the Eiffel Tower in Paris.,They enjoyed dinner at the restaurant.,1
+She baked a chocolate cake.,He made a fresh fruit salad.,0
+She traveled to Japan last summer.,The robot performed tasks automatically.,1
+The dessert was sweet and creamy.,She added extra cheese to the pizza.,0
+The weather forecast predicted a storm.,He kicked the football into the goal.,1
+The library was full of readers.,She wrote an essay on climate change.,0
+They won the championship trophy.,They explored the ancient ruins.,1
+The website was built using React.,They discussed cybersecurity issues.,0
+They installed the latest software update.,They enjoyed dinner at the restaurant.,1
+The bus stopped near the city square.,She packed her bags for the vacation.,0
+The robot performed tasks automatically.,He tried sushi for the first time.,1
+The temperature dropped suddenly.,A rainbow appeared after the rain.,0
+The bus stopped near the city square.,Thunder and lightning scared the children.,1
+He walked through the narrow streets of Venice.,She traveled to Japan last summer.,0
+She baked a chocolate cake.,He kicked the football into the goal.,1
+He kicked the football into the goal.,The player trained hard every day.,0
+The pasta was cooked perfectly.,She solved all the math problems correctly.,1
+They discussed cybersecurity issues.,She learned how to code in Python.,0
+He submitted his project on time.,She packed her bags for the vacation.,1
+She packed her bags for the vacation.,The bus stopped near the city square.,0
+The pasta was cooked perfectly.,The sky was clear and blue.,1
+He bought a new smartphone yesterday.,They discussed cybersecurity issues.,0
+She attended a workshop on AI.,The temperature dropped suddenly.,1
+She packed her bags for the vacation.,He walked through the narrow streets of Venice.,0
+The bus stopped near the city square.,The dessert was sweet and creamy.,1
+It rained heavily throughout the night.,The temperature dropped suddenly.,0
+The team celebrated after scoring.,The soup was warm and delicious.,1
+The dessert was sweet and creamy.,She added extra cheese to the pizza.,0
+They discussed cybersecurity issues.,The students attended the lecture.,1
+The library was full of readers.,They participated in the school exhibition.,0
+The sky was clear and blue.,He ordered a burger with fries.,1
+He bought a new smartphone yesterday.,They discussed cybersecurity issues.,0
+He scored the highest marks in science.,The pasta was cooked perfectly.,1
+The dessert was sweet and creamy.,She baked a chocolate cake.,0
+They enjoyed dinner at the restaurant.,The sun shone brightly this morning.,1
+It rained heavily throughout the night.,A strong wind blew across the field.,0
+He walked through the narrow streets of Venice.,They practiced shooting before the game.,1
+The referee blew the final whistle.,The player trained hard every day.,0
+The robot performed tasks automatically.,She added extra cheese to the pizza.,1
+The bus stopped near the city square.,The train arrived at the station on time.,0
+Thunder and lightning scared the children.,He missed the penalty kick narrowly.,1
+He made a fresh fruit salad.,They enjoyed dinner at the restaurant.,0
+They discussed cybersecurity issues.,The sun shone brightly this morning.,1
+She learned how to code in Python.,He developed a mobile application.,0
+The website was built using React.,They participated in the school exhibition.,1
+She traveled to Japan last summer.,They enjoyed the mountain view from the hotel.,0
+They won the championship trophy.,The bus stopped near the city square.,1
+The bus stopped near the city square.,They enjoyed the mountain view from the hotel.,0
+The coach praised the best performer.,They explored the ancient ruins.,1
+The website was built using React.,They installed the latest software update.,0
+They visited the Eiffel Tower in Paris.,The temperature dropped suddenly.,1
+The robot performed tasks automatically.,She learned how to code in Python.,0
+The coach praised the best performer.,He scored the highest marks in science.,1
+A strong wind blew across the field.,The sky was clear and blue.,0
+The pasta was cooked perfectly.,They visited the Eiffel Tower in Paris.,1
+The team celebrated after scoring.,Fans cheered loudly during the match.,0
+The train arrived at the station on time.,Fans cheered loudly during the match.,1
+The teacher explained the lesson clearly.,She wrote an essay on climate change.,0
+He clicked pictures at the beach.,The computer crashed during the meeting.,1
+They installed the latest software update.,The website was built using React.,0
+He scored the highest marks in science.,Fans cheered loudly during the match.,1
+They explored the ancient ruins.,She traveled to Japan last summer.,0
+The principal addressed the assembly.,She traveled to Japan last summer.,1
+He scored the highest marks in science.,They participated in the school exhibition.,0
+They visited the Eiffel Tower in Paris.,She attended a workshop on AI.,1
+The website was built using React.,He bought a new smartphone yesterday.,0
+The coach praised the best performer.,The bus stopped near the city square.,1
+The teacher explained the lesson clearly.,He submitted his project on time.,0
+A strong wind blew across the field.,She learned how to code in Python.,1
+The coach praised the best performer.,The player trained hard every day.,0
+The weather forecast predicted a storm.,She played tennis with great skill.,1
+The coach praised the best performer.,He kicked the football into the goal.,0
+He made a fresh fruit salad.,It rained heavily throughout the night.,1
+The player trained hard every day.,Fans cheered loudly during the match.,0
+He ordered a burger with fries.,The robot performed tasks automatically.,1
+It rained heavily throughout the night.,Dark clouds gathered above the city.,0
+She learned how to code in Python.,She studied all night for her exams.,1
+The website was built using React.,She learned how to code in Python.,0
+They practiced shooting before the game.,She packed her bags for the vacation.,1
+It snowed for three days continuously.,It rained heavily throughout the night.,0
+The computer crashed during the meeting.,He made a fresh fruit salad.,1
+He walked through the narrow streets of Venice.,She packed her bags for the vacation.,0
+The coach praised the best performer.,The website was built using React.,1
+They discussed cybersecurity issues.,She attended a workshop on AI.,0
+They explored the ancient ruins.,She learned how to code in Python.,1
+He submitted his project on time.,She solved all the math problems correctly.,0
+The dessert was sweet and creamy.,She solved all the math problems correctly.,1
+He bought a new smartphone yesterday.,They discussed cybersecurity issues.,0
+He scored the highest marks in science.,They enjoyed the mountain view from the hotel.,1
+He fixed the bug in the program.,She learned how to code in Python.,0
+A rainbow appeared after the rain.,She packed her bags for the vacation.,1
+It snowed for three days continuously.,A rainbow appeared after the rain.,0
+He clicked pictures at the beach.,It snowed for three days continuously.,1
+The robot performed tasks automatically.,The website was built using React.,0
+The dessert was sweet and creamy.,The bus stopped near the city square.,1
+The team celebrated after scoring.,The player trained hard every day.,0
+Fans cheered loudly during the match.,The pasta was cooked perfectly.,1
+The bus stopped near the city square.,They explored the ancient ruins.,0
+They enjoyed dinner at the restaurant.,Thunder and lightning scared the children.,1
+It rained heavily throughout the night.,It snowed for three days continuously.,0
+Dark clouds gathered above the city.,The bus stopped near the city square.,1
+A rainbow appeared after the rain.,The temperature dropped suddenly.,0
+He developed a mobile application.,He scored the highest marks in science.,1
+The pasta was cooked perfectly.,She added extra cheese to the pizza.,0
+The bus stopped near the city square.,He made a fresh fruit salad.,1
+He tried sushi for the first time.,The dessert was sweet and creamy.,0
+The students attended the lecture.,The train arrived at the station on time.,1
+He tried sushi for the first time.,The dessert was sweet and creamy.,0
+He submitted his project on time.,He made a fresh fruit salad.,1
+The teacher explained the lesson clearly.,The library was full of readers.,0
+The principal addressed the assembly.,They won the championship trophy.,1
+The soup was warm and delicious.,He ordered a burger with fries.,0
+He clicked pictures at the beach.,She added extra cheese to the pizza.,1
+A rainbow appeared after the rain.,It rained heavily throughout the night.,0
+He tried sushi for the first time.,She studied all night for her exams.,1
+The computer crashed during the meeting.,The website was built using React.,0
+A rainbow appeared after the rain.,The referee blew the final whistle.,1
+The player trained hard every day.,The team celebrated after scoring.,0
+The students attended the lecture.,The referee blew the final whistle.,1
+He tried sushi for the first time.,They enjoyed dinner at the restaurant.,0
+The coach praised the best performer.,Dark clouds gathered above the city.,1
+He scored the highest marks in science.,They participated in the school exhibition.,0
+She traveled to Japan last summer.,The weather forecast predicted a storm.,1
+They won the championship trophy.,The team celebrated after scoring.,0
+He missed the penalty kick narrowly.,They installed the latest software update.,1
+She wrote an essay on climate change.,He scored the highest marks in science.,0
+It rained heavily throughout the night.,They discussed cybersecurity issues.,1
+Thunder and lightning scared the children.,A strong wind blew across the field.,0
+The bus stopped near the city square.,The pasta was cooked perfectly.,1
+The sun shone brightly this morning.,The sky was clear and blue.,0
+They practiced shooting before the game.,She added extra cheese to the pizza.,1
+The students attended the lecture.,They participated in the school exhibition.,0
+The player trained hard every day.,The weather forecast predicted a storm.,1
+A rainbow appeared after the rain.,The temperature dropped suddenly.,0
+She learned how to code in Python.,The team celebrated after scoring.,1
+She solved all the math problems correctly.,She studied all night for her exams.,0
+They discussed cybersecurity issues.,A rainbow appeared after the rain.,1
+She played tennis with great skill.,They won the championship trophy.,0
+He submitted his project on time.,He bought a new smartphone yesterday.,1
+She added extra cheese to the pizza.,He ordered a burger with fries.,0
+They enjoyed the mountain view from the hotel.,He submitted his project on time.,1
+She learned how to code in Python.,The computer crashed during the meeting.,0
+He booked a flight to New York.,The player trained hard every day.,1
+He missed the penalty kick narrowly.,She played tennis with great skill.,0
+She learned how to code in Python.,He kicked the football into the goal.,1
+She traveled to Japan last summer.,The train arrived at the station on time.,0
+She baked a chocolate cake.,A strong wind blew across the field.,1
+It snowed for three days continuously.,Dark clouds gathered above the city.,0
+The referee blew the final whistle.,They discussed cybersecurity issues.,1
+The train arrived at the station on time.,They enjoyed the mountain view from the hotel.,0
+He clicked pictures at the beach.,Thunder and lightning scared the children.,1
+He tried sushi for the first time.,The soup was warm and delicious.,0
+She wrote an essay on climate change.,He walked through the narrow streets of Venice.,1
+She added extra cheese to the pizza.,She baked a chocolate cake.,0
+He clicked pictures at the beach.,The computer crashed during the meeting.,1
+The referee blew the final whistle.,They won the championship trophy.,0
+The team celebrated after scoring.,They visited the Eiffel Tower in Paris.,1
+She wrote an essay on climate change.,They participated in the school exhibition.,0
+The library was full of readers.,She baked a chocolate cake.,1
+The soup was warm and delicious.,The dessert was sweet and creamy.,0
+He made a fresh fruit salad.,She wrote an essay on climate change.,1
+The coach praised the best performer.,He kicked the football into the goal.,0
+The soup was warm and delicious.,The teacher explained the lesson clearly.,1
+He bought a new smartphone yesterday.,The robot performed tasks automatically.,0
+She played tennis with great skill.,Dark clouds gathered above the city.,1
+They enjoyed dinner at the restaurant.,She added extra cheese to the pizza.,0
+The library was full of readers.,She attended a workshop on AI.,1
+She baked a chocolate cake.,They enjoyed dinner at the restaurant.,0
+The website was built using React.,The weather forecast predicted a storm.,1
+It rained heavily throughout the night.,A rainbow appeared after the rain.,0
+She added extra cheese to the pizza.,The sun shone brightly this morning.,1
+The sky was clear and blue.,The temperature dropped suddenly.,0
+Fans cheered loudly during the match.,The principal addressed the assembly.,1
+The principal addressed the assembly.,He submitted his project on time.,0
+They participated in the school exhibition.,Fans cheered loudly during the match.,1
+He developed a mobile application.,He bought a new smartphone yesterday.,0
+He scored the highest marks in science.,She added extra cheese to the pizza.,1
+She added extra cheese to the pizza.,She baked a chocolate cake.,0
+They shared a plate of noodles.,They participated in the school exhibition.,1
+A strong wind blew across the field.,It snowed for three days continuously.,0
+The library was full of readers.,She added extra cheese to the pizza.,1
+Fans cheered loudly during the match.,The coach praised the best performer.,0
+She learned how to code in Python.,She played tennis with great skill.,1
+She learned how to code in Python.,The website was built using React.,0
+It rained heavily throughout the night.,He ordered a burger with fries.,1
+He booked a flight to New York.,He walked through the narrow streets of Venice.,0
+They visited the Eiffel Tower in Paris.,The soup was warm and delicious.,1
+Fans cheered loudly during the match.,The referee blew the final whistle.,0
+Thunder and lightning scared the children.,The website was built using React.,1
+The train arrived at the station on time.,He clicked pictures at the beach.,0
+He submitted his project on time.,The referee blew the final whistle.,1
+The train arrived at the station on time.,They explored the ancient ruins.,0
+The library was full of readers.,A strong wind blew across the field.,1
+The coach praised the best performer.,He kicked the football into the goal.,0
+The coach praised the best performer.,He ordered a burger with fries.,1
+He developed a mobile application.,The computer crashed during the meeting.,0
+He missed the penalty kick narrowly.,The computer crashed during the meeting.,1
+The students attended the lecture.,He scored the highest marks in science.,0
+She learned how to code in Python.,The coach praised the best performer.,1
+The team celebrated after scoring.,The player trained hard every day.,0
+He developed a mobile application.,It rained heavily throughout the night.,1
+She baked a chocolate cake.,The pasta was cooked perfectly.,0
+It rained heavily throughout the night.,She traveled to Japan last summer.,1
+The students attended the lecture.,She solved all the math problems correctly.,0
+She traveled to Japan last summer.,The library was full of readers.,1
+The robot performed tasks automatically.,She learned how to code in Python.,0
+The pasta was cooked perfectly.,He fixed the bug in the program.,1
+He clicked pictures at the beach.,She traveled to Japan last summer.,0
+He submitted his project on time.,The dessert was sweet and creamy.,1
+The team celebrated after scoring.,They won the championship trophy.,0
+They installed the latest software update.,She solved all the math problems correctly.,1
+The referee blew the final whistle.,Fans cheered loudly during the match.,0
+The website was built using React.,The sky was clear and blue.,1
+She added extra cheese to the pizza.,The soup was warm and delicious.,0
+He fixed the bug in the program.,The temperature dropped suddenly.,1
+The students attended the lecture.,The teacher explained the lesson clearly.,0
+The referee blew the final whistle.,The teacher explained the lesson clearly.,1
+The website was built using React.,The robot performed tasks automatically.,0
+The website was built using React.,They visited the Eiffel Tower in Paris.,1
+They discussed cybersecurity issues.,He bought a new smartphone yesterday.,0
+The website was built using React.,The coach praised the best performer.,1
+He tried sushi for the first time.,She added extra cheese to the pizza.,0
+The dessert was sweet and creamy.,He fixed the bug in the program.,1
+He made a fresh fruit salad.,She baked a chocolate cake.,0
+He kicked the football into the goal.,He booked a flight to New York.,1
+They practiced shooting before the game.,He kicked the football into the goal.,0
+They shared a plate of noodles.,She attended a workshop on AI.,1
+He made a fresh fruit salad.,He ordered a burger with fries.,0
+He submitted his project on time.,A strong wind blew across the field.,1
+A strong wind blew across the field.,It snowed for three days continuously.,0
+The teacher explained the lesson clearly.,It rained heavily throughout the night.,1
+The dessert was sweet and creamy.,The pasta was cooked perfectly.,0
+He submitted his project on time.,They installed the latest software update.,1
+The referee blew the final whistle.,They practiced shooting before the game.,0
+It rained heavily throughout the night.,The coach praised the best performer.,1
+They practiced shooting before the game.,The team celebrated after scoring.,0
+The website was built using React.,She studied all night for her exams.,1
+He scored the highest marks in science.,He submitted his project on time.,0
+The teacher explained the lesson clearly.,The bus stopped near the city square.,1
+The weather forecast predicted a storm.,It snowed for three days continuously.,0
+They shared a plate of noodles.,He kicked the football into the goal.,1
+She studied all night for her exams.,She wrote an essay on climate change.,0
+He bought a new smartphone yesterday.,They enjoyed dinner at the restaurant.,1
+She added extra cheese to the pizza.,They shared a plate of noodles.,0
+She added extra cheese to the pizza.,She learned how to code in Python.,1
+He scored the highest marks in science.,She solved all the math problems correctly.,0
+They discussed cybersecurity issues.,He walked through the narrow streets of Venice.,1
+They discussed cybersecurity issues.,The robot performed tasks automatically.,0
+The coach praised the best performer.,The computer crashed during the meeting.,1
+He made a fresh fruit salad.,He tried sushi for the first time.,0
+He bought a new smartphone yesterday.,He kicked the football into the goal.,1
+The weather forecast predicted a storm.,Thunder and lightning scared the children.,0
+She traveled to Japan last summer.,It rained heavily throughout the night.,1
+They participated in the school exhibition.,He scored the highest marks in science.,0
+The referee blew the final whistle.,They shared a plate of noodles.,1
+They shared a plate of noodles.,They enjoyed dinner at the restaurant.,0
+He submitted his project on time.,Fans cheered loudly during the match.,1
+They discussed cybersecurity issues.,They installed the latest software update.,0
+The temperature dropped suddenly.,The soup was warm and delicious.,1
+The coach praised the best performer.,They won the championship trophy.,0
+The coach praised the best performer.,Thunder and lightning scared the children.,1
+He booked a flight to New York.,She traveled to Japan last summer.,0
+The player trained hard every day.,She packed her bags for the vacation.,1
+Thunder and lightning scared the children.,The sun shone brightly this morning.,0
+He missed the penalty kick narrowly.,She baked a chocolate cake.,1
+The students attended the lecture.,She wrote an essay on climate change.,0
+They enjoyed the mountain view from the hotel.,The referee blew the final whistle.,1
+She attended a workshop on AI.,The website was built using React.,0
+She traveled to Japan last summer.,A rainbow appeared after the rain.,1
+The sun shone brightly this morning.,The sky was clear and blue.,0
+It snowed for three days continuously.,She learned how to code in Python.,1
+The students attended the lecture.,She solved all the math problems correctly.,0
+A strong wind blew across the field.,They shared a plate of noodles.,1
+The temperature dropped suddenly.,A rainbow appeared after the rain.,0
+They enjoyed the mountain view from the hotel.,The students attended the lecture.,1
+He kicked the football into the goal.,The team celebrated after scoring.,0
+She packed her bags for the vacation.,Thunder and lightning scared the children.,1
+She played tennis with great skill.,The coach praised the best performer.,0
+The robot performed tasks automatically.,Dark clouds gathered above the city.,1
+The website was built using React.,The robot performed tasks automatically.,0
+The team celebrated after scoring.,The computer crashed during the meeting.,1
+Thunder and lightning scared the children.,The sky was clear and blue.,0
+The computer crashed during the meeting.,The temperature dropped suddenly.,1
+She packed her bags for the vacation.,They enjoyed the mountain view from the hotel.,0
+The referee blew the final whistle.,He tried sushi for the first time.,1
+The referee blew the final whistle.,The player trained hard every day.,0
+It rained heavily throughout the night.,He fixed the bug in the program.,1
+They installed the latest software update.,The website was built using React.,0
+He bought a new smartphone yesterday.,A strong wind blew across the field.,1
+He fixed the bug in the program.,They discussed cybersecurity issues.,0
+Fans cheered loudly during the match.,The pasta was cooked perfectly.,1
+The computer crashed during the meeting.,He bought a new smartphone yesterday.,0
+The students attended the lecture.,They practiced shooting before the game.,1
+The students attended the lecture.,The principal addressed the assembly.,0
+They practiced shooting before the game.,He tried sushi for the first time.,1
+She packed her bags for the vacation.,He booked a flight to New York.,0
+They shared a plate of noodles.,She played tennis with great skill.,1
+The website was built using React.,He bought a new smartphone yesterday.,0
+She learned how to code in Python.,The train arrived at the station on time.,1
+He developed a mobile application.,He bought a new smartphone yesterday.,0
+The teacher explained the lesson clearly.,He clicked pictures at the beach.,1
+The sun shone brightly this morning.,Dark clouds gathered above the city.,0
+The sky was clear and blue.,The bus stopped near the city square.,1
+She added extra cheese to the pizza.,They shared a plate of noodles.,0
+He clicked pictures at the beach.,It snowed for three days continuously.,1
+The soup was warm and delicious.,They shared a plate of noodles.,0
+The dessert was sweet and creamy.,The library was full of readers.,1
+The sky was clear and blue.,Dark clouds gathered above the city.,0
+He developed a mobile application.,The player trained hard every day.,1
+He developed a mobile application.,The computer crashed during the meeting.,0
+He submitted his project on time.,He fixed the bug in the program.,1
+Dark clouds gathered above the city.,A strong wind blew across the field.,0
+They won the championship trophy.,They enjoyed the mountain view from the hotel.,1
+They discussed cybersecurity issues.,The website was built using React.,0
+She packed her bags for the vacation.,The soup was warm and delicious.,1
+Thunder and lightning scared the children.,The sky was clear and blue.,0
+The train arrived at the station on time.,The weather forecast predicted a storm.,1
+Dark clouds gathered above the city.,The temperature dropped suddenly.,0
+She solved all the math problems correctly.,The temperature dropped suddenly.,1
+The team celebrated after scoring.,The coach praised the best performer.,0
+She solved all the math problems correctly.,He fixed the bug in the program.,1
+He kicked the football into the goal.,They practiced shooting before the game.,0
+Dark clouds gathered above the city.,They enjoyed the mountain view from the hotel.,1
+He submitted his project on time.,He scored the highest marks in science.,0
+She added extra cheese to the pizza.,He kicked the football into the goal.,1
+The teacher explained the lesson clearly.,The students attended the lecture.,0
+She studied all night for her exams.,The dessert was sweet and creamy.,1
+Dark clouds gathered above the city.,A strong wind blew across the field.,0
+She added extra cheese to the pizza.,He clicked pictures at the beach.,1
+It snowed for three days continuously.,The sky was clear and blue.,0
+It rained heavily throughout the night.,The team celebrated after scoring.,1
+They won the championship trophy.,The referee blew the final whistle.,0
+She attended a workshop on AI.,The dessert was sweet and creamy.,1
+He walked through the narrow streets of Venice.,They enjoyed the mountain view from the hotel.,0
+The temperature dropped suddenly.,He fixed the bug in the program.,1
+He bought a new smartphone yesterday.,He developed a mobile application.,0
+The website was built using React.,He tried sushi for the first time.,1
+The player trained hard every day.,He kicked the football into the goal.,0
+The sun shone brightly this morning.,He developed a mobile application.,1
+They practiced shooting before the game.,The team celebrated after scoring.,0
+He scored the highest marks in science.,He bought a new smartphone yesterday.,1
+The bus stopped near the city square.,He booked a flight to New York.,0
+He bought a new smartphone yesterday.,They participated in the school exhibition.,1
+The computer crashed during the meeting.,The robot performed tasks automatically.,0
+She attended a workshop on AI.,He scored the highest marks in science.,1
+He developed a mobile application.,He bought a new smartphone yesterday.,0
+The library was full of readers.,The player trained hard every day.,1
+They shared a plate of noodles.,She baked a chocolate cake.,0
+They enjoyed dinner at the restaurant.,The computer crashed during the meeting.,1
+She baked a chocolate cake.,They shared a plate of noodles.,0
+The coach praised the best performer.,They explored the ancient ruins.,1
+They practiced shooting before the game.,He missed the penalty kick narrowly.,0
+The train arrived at the station on time.,They won the championship trophy.,1
+They participated in the school exhibition.,She solved all the math problems correctly.,0
+They participated in the school exhibition.,The dessert was sweet and creamy.,1
+It snowed for three days continuously.,Thunder and lightning scared the children.,0
+He scored the highest marks in science.,They practiced shooting before the game.,1
+She traveled to Japan last summer.,The train arrived at the station on time.,0
+He tried sushi for the first time.,She played tennis with great skill.,1
+They visited the Eiffel Tower in Paris.,She packed her bags for the vacation.,0
+The dessert was sweet and creamy.,She studied all night for her exams.,1
+It rained heavily throughout the night.,It snowed for three days continuously.,0
+Thunder and lightning scared the children.,The dessert was sweet and creamy.,1
+The weather forecast predicted a storm.,Thunder and lightning scared the children.,0
+The coach praised the best performer.,She learned how to code in Python.,1
+He tried sushi for the first time.,She baked a chocolate cake.,0
+They enjoyed dinner at the restaurant.,The students attended the lecture.,1
+She attended a workshop on AI.,She learned how to code in Python.,0
+The principal addressed the assembly.,The soup was warm and delicious.,1
+She wrote an essay on climate change.,He scored the highest marks in science.,0
+The temperature dropped suddenly.,She packed her bags for the vacation.,1
+He ordered a burger with fries.,He tried sushi for the first time.,0
+They discussed cybersecurity issues.,The coach praised the best performer.,1
+The sun shone brightly this morning.,A rainbow appeared after the rain.,0
+The students attended the lecture.,The computer crashed during the meeting.,1
+She studied all night for her exams.,The principal addressed the assembly.,0
+A strong wind blew across the field.,They visited the Eiffel Tower in Paris.,1
+She traveled to Japan last summer.,She packed her bags for the vacation.,0
+He bought a new smartphone yesterday.,The soup was warm and delicious.,1
+She solved all the math problems correctly.,The students attended the lecture.,0
+The computer crashed during the meeting.,It rained heavily throughout the night.,1
+He kicked the football into the goal.,The player trained hard every day.,0
+He clicked pictures at the beach.,He developed a mobile application.,1
+The website was built using React.,He bought a new smartphone yesterday.,0
+He clicked pictures at the beach.,He submitted his project on time.,1
+The library was full of readers.,He scored the highest marks in science.,0
+The computer crashed during the meeting.,The sky was clear and blue.,1
+He developed a mobile application.,She attended a workshop on AI.,0
+The principal addressed the assembly.,The robot performed tasks automatically.,1
+The computer crashed during the meeting.,The robot performed tasks automatically.,0
+The students attended the lecture.,The weather forecast predicted a storm.,1
+The soup was warm and delicious.,She added extra cheese to the pizza.,0
+The library was full of readers.,They installed the latest software update.,1
+He tried sushi for the first time.,He made a fresh fruit salad.,0
+She added extra cheese to the pizza.,The sky was clear and blue.,1
+She wrote an essay on climate change.,He scored the highest marks in science.,0
+He submitted his project on time.,The weather forecast predicted a storm.,1
+She solved all the math problems correctly.,The library was full of readers.,0
+The students attended the lecture.,He clicked pictures at the beach.,1
+She attended a workshop on AI.,They discussed cybersecurity issues.,0
+He bought a new smartphone yesterday.,The principal addressed the assembly.,1
+Thunder and lightning scared the children.,It snowed for three days continuously.,0
+He ordered a burger with fries.,She learned how to code in Python.,1
+She packed her bags for the vacation.,He booked a flight to New York.,0
+Dark clouds gathered above the city.,She traveled to Japan last summer.,1
+The dessert was sweet and creamy.,He made a fresh fruit salad.,0
+He developed a mobile application.,She baked a chocolate cake.,1
+The library was full of readers.,She studied all night for her exams.,0
+The principal addressed the assembly.,They enjoyed the mountain view from the hotel.,1
+They explored the ancient ruins.,They visited the Eiffel Tower in Paris.,0
+He bought a new smartphone yesterday.,He kicked the football into the goal.,1
+He clicked pictures at the beach.,He walked through the narrow streets of Venice.,0
+The library was full of readers.,He developed a mobile application.,1
+She baked a chocolate cake.,He made a fresh fruit salad.,0
+They explored the ancient ruins.,He developed a mobile application.,1
+They shared a plate of noodles.,The soup was warm and delicious.,0
+He scored the highest marks in science.,The train arrived at the station on time.,1
+She traveled to Japan last summer.,She packed her bags for the vacation.,0
+The temperature dropped suddenly.,She learned how to code in Python.,1
+The library was full of readers.,She wrote an essay on climate change.,0
+He fixed the bug in the program.,She added extra cheese to the pizza.,1
+She added extra cheese to the pizza.,They enjoyed dinner at the restaurant.,0
+They enjoyed the mountain view from the hotel.,He scored the highest marks in science.,1
+It snowed for three days continuously.,The weather forecast predicted a storm.,0
+He ordered a burger with fries.,The library was full of readers.,1

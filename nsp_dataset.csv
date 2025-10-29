@@ -1,0 +1,301 @@
+sentence_a,sentence_b,label
+The teacher explained the lesson clearly.,The library was full of readers.,0
+They visited the Eiffel Tower in Paris.,It rained heavily throughout the night.,1
+The player trained hard every day.,They practiced shooting before the game.,0
+The pasta was cooked perfectly.,He submitted his project on time.,1
+She studied all night for her exams.,The teacher explained the lesson clearly.,0
+The team celebrated after scoring.,He made a fresh fruit salad.,1
+The sun shone brightly this morning.,Dark clouds gathered above the city.,0
+She baked a chocolate cake.,She packed her bags for the vacation.,1
+The students attended the lecture.,The teacher explained the lesson clearly.,0
+The sun shone brightly this morning.,They enjoyed the mountain view from the hotel.,1
+Fans cheered loudly during the match.,He kicked the football into the goal.,0
+They enjoyed the mountain view from the hotel.,The soup was warm and delicious.,1
+The library was full of readers.,The teacher explained the lesson clearly.,0
+Fans cheered loudly during the match.,He made a fresh fruit salad.,1
+A strong wind blew across the field.,Dark clouds gathered above the city.,0
+He kicked the football into the goal.,He ordered a burger with fries.,1
+They practiced shooting before the game.,The coach praised the best performer.,0
+He ordered a burger with fries.,The team celebrated after scoring.,1
+They practiced shooting before the game.,He kicked the football into the goal.,0
+He clicked pictures at the beach.,The temperature dropped suddenly.,1
+He submitted his project on time.,The students attended the lecture.,0
+He booked a flight to New York.,He made a fresh fruit salad.,1
+He booked a flight to New York.,They enjoyed the mountain view from the hotel.,0
+The soup was warm and delicious.,They visited the Eiffel Tower in Paris.,1
+Dark clouds gathered above the city.,The sky was clear and blue.,0
+The soup was warm and delicious.,He kicked the football into the goal.,1
+They practiced shooting before the game.,The player trained hard every day.,0
+He submitted his project on time.,He clicked pictures at the beach.,1
+He made a fresh fruit salad.,She baked a chocolate cake.,0
+The teacher explained the lesson clearly.,It rained heavily throughout the night.,1
+The library was full of readers.,She studied all night for her exams.,0
+Dark clouds gathered above the city.,He kicked the football into the goal.,1
+The coach praised the best performer.,They practiced shooting before the game.,0
+The team celebrated after scoring.,He submitted his project on time.,1
+They visited the Eiffel Tower in Paris.,The train arrived at the station on time.,0
+The pasta was cooked perfectly.,She solved all the math problems correctly.,1
+The team celebrated after scoring.,The coach praised the best performer.,0
+The player trained hard every day.,The train arrived at the station on time.,1
+The sky was clear and blue.,Dark clouds gathered above the city.,0
+The library was full of readers.,The sun shone brightly this morning.,1
+Fans cheered loudly during the match.,The coach praised the best performer.,0
+They visited the Eiffel Tower in Paris.,The player trained hard every day.,1
+The library was full of readers.,The teacher explained the lesson clearly.,0
+The soup was warm and delicious.,The temperature dropped suddenly.,1
+The library was full of readers.,He submitted his project on time.,0
+She baked a chocolate cake.,Fans cheered loudly during the match.,1
+The pasta was cooked perfectly.,She baked a chocolate cake.,0
+Dark clouds gathered above the city.,They practiced shooting before the game.,1
+She studied all night for her exams.,The students attended the lecture.,0
+Fans cheered loudly during the match.,Dark clouds gathered above the city.,1
+The teacher explained the lesson clearly.,He submitted his project on time.,0
+The temperature dropped suddenly.,The pasta was cooked perfectly.,1
+He kicked the football into the goal.,They practiced shooting before the game.,0
+They enjoyed dinner at the restaurant.,She solved all the math problems correctly.,1
+The train arrived at the station on time.,He clicked pictures at the beach.,0
+The player trained hard every day.,He ordered a burger with fries.,1
+They practiced shooting before the game.,The player trained hard every day.,0
+Fans cheered loudly during the match.,They visited the Eiffel Tower in Paris.,1
+The soup was warm and delicious.,He made a fresh fruit salad.,0
+The sun shone brightly this morning.,The train arrived at the station on time.,1
+The students attended the lecture.,The teacher explained the lesson clearly.,0
+It rained heavily throughout the night.,She packed her bags for the vacation.,1
+They enjoyed the mountain view from the hotel.,The train arrived at the station on time.,0
+The coach praised the best performer.,He booked a flight to New York.,1
+The teacher explained the lesson clearly.,The students attended the lecture.,0
+The coach praised the best performer.,The teacher explained the lesson clearly.,1
+They visited the Eiffel Tower in Paris.,The train arrived at the station on time.,0
+The sun shone brightly this morning.,He booked a flight to New York.,1
+He submitted his project on time.,The library was full of readers.,0
+They practiced shooting before the game.,The teacher explained the lesson clearly.,1
+He ordered a burger with fries.,They enjoyed dinner at the restaurant.,0
+He booked a flight to New York.,It rained heavily throughout the night.,1
+He kicked the football into the goal.,The coach praised the best performer.,0
+The students attended the lecture.,He booked a flight to New York.,1
+The player trained hard every day.,They practiced shooting before the game.,0
+She solved all the math problems correctly.,The team celebrated after scoring.,1
+She packed her bags for the vacation.,They enjoyed the mountain view from the hotel.,0
+He kicked the football into the goal.,Dark clouds gathered above the city.,1
+He clicked pictures at the beach.,They visited the Eiffel Tower in Paris.,0
+The sky was clear and blue.,He kicked the football into the goal.,1
+The coach praised the best performer.,He kicked the football into the goal.,0
+The sun shone brightly this morning.,They visited the Eiffel Tower in Paris.,1
+The teacher explained the lesson clearly.,She solved all the math problems correctly.,0
+The students attended the lecture.,It rained heavily throughout the night.,1
+The sun shone brightly this morning.,A strong wind blew across the field.,0
+They enjoyed dinner at the restaurant.,The library was full of readers.,1
+The team celebrated after scoring.,Fans cheered loudly during the match.,0
+He kicked the football into the goal.,They visited the Eiffel Tower in Paris.,1
+The students attended the lecture.,He submitted his project on time.,0
+The temperature dropped suddenly.,He kicked the football into the goal.,1
+She studied all night for her exams.,He submitted his project on time.,0
+The team celebrated after scoring.,He booked a flight to New York.,1
+The sun shone brightly this morning.,A strong wind blew across the field.,0
+He kicked the football into the goal.,The library was full of readers.,1
+She baked a chocolate cake.,He ordered a burger with fries.,0
+The teacher explained the lesson clearly.,A strong wind blew across the field.,1
+The train arrived at the station on time.,He clicked pictures at the beach.,0
+The students attended the lecture.,They enjoyed the mountain view from the hotel.,1
+He booked a flight to New York.,He clicked pictures at the beach.,0
+They enjoyed dinner at the restaurant.,Dark clouds gathered above the city.,1
+She baked a chocolate cake.,He ordered a burger with fries.,0
+The player trained hard every day.,He submitted his project on time.,1
+The students attended the lecture.,He submitted his project on time.,0
+A strong wind blew across the field.,The team celebrated after scoring.,1
+The sun shone brightly this morning.,The sky was clear and blue.,0
+The sky was clear and blue.,He booked a flight to New York.,1
+It rained heavily throughout the night.,The sun shone brightly this morning.,0
+The sky was clear and blue.,He kicked the football into the goal.,1
+The temperature dropped suddenly.,The sun shone brightly this morning.,0
+He kicked the football into the goal.,He booked a flight to New York.,1
+He kicked the football into the goal.,The player trained hard every day.,0
+They enjoyed dinner at the restaurant.,The students attended the lecture.,1
+The pasta was cooked perfectly.,She baked a chocolate cake.,0
+The library was full of readers.,A strong wind blew across the field.,1
+The teacher explained the lesson clearly.,The library was full of readers.,0
+She packed her bags for the vacation.,He submitted his project on time.,1
+The sun shone brightly this morning.,Dark clouds gathered above the city.,0
+It rained heavily throughout the night.,The team celebrated after scoring.,1
+He made a fresh fruit salad.,The pasta was cooked perfectly.,0
+The coach praised the best performer.,He ordered a burger with fries.,1
+The pasta was cooked perfectly.,He ordered a burger with fries.,0
+Fans cheered loudly during the match.,She studied all night for her exams.,1
+The sun shone brightly this morning.,Dark clouds gathered above the city.,0
+The sun shone brightly this morning.,He ordered a burger with fries.,1
+The soup was warm and delicious.,They enjoyed dinner at the restaurant.,0
+The students attended the lecture.,The soup was warm and delicious.,1
+He clicked pictures at the beach.,They enjoyed the mountain view from the hotel.,0
+The coach praised the best performer.,The teacher explained the lesson clearly.,1
+Fans cheered loudly during the match.,The coach praised the best performer.,0
+The sun shone brightly this morning.,She packed her bags for the vacation.,1
+He clicked pictures at the beach.,He booked a flight to New York.,0
+He ordered a burger with fries.,The player trained hard every day.,1
+They enjoyed the mountain view from the hotel.,He booked a flight to New York.,0
+They enjoyed dinner at the restaurant.,They practiced shooting before the game.,1
+The team celebrated after scoring.,The coach praised the best performer.,0
+He made a fresh fruit salad.,They practiced shooting before the game.,1
+Dark clouds gathered above the city.,The sky was clear and blue.,0
+The library was full of readers.,The soup was warm and delicious.,1
+The train arrived at the station on time.,He booked a flight to New York.,0
+She baked a chocolate cake.,He booked a flight to New York.,1
+They visited the Eiffel Tower in Paris.,They enjoyed the mountain view from the hotel.,0
+It rained heavily throughout the night.,The library was full of readers.,1
+He made a fresh fruit salad.,He ordered a burger with fries.,0
+The pasta was cooked perfectly.,The player trained hard every day.,1
+He booked a flight to New York.,They visited the Eiffel Tower in Paris.,0
+The library was full of readers.,Dark clouds gathered above the city.,1
+The team celebrated after scoring.,They practiced shooting before the game.,0
+He ordered a burger with fries.,The player trained hard every day.,1
+They enjoyed the mountain view from the hotel.,He booked a flight to New York.,0
+The soup was warm and delicious.,He clicked pictures at the beach.,1
+Dark clouds gathered above the city.,A strong wind blew across the field.,0
+She baked a chocolate cake.,The students attended the lecture.,1
+They practiced shooting before the game.,The coach praised the best performer.,0
+He ordered a burger with fries.,She packed her bags for the vacation.,1
+He ordered a burger with fries.,The soup was warm and delicious.,0
+He booked a flight to New York.,The coach praised the best performer.,1
+The coach praised the best performer.,The team celebrated after scoring.,0
+The sun shone brightly this morning.,The students attended the lecture.,1
+They enjoyed the mountain view from the hotel.,They visited the Eiffel Tower in Paris.,0
+He booked a flight to New York.,Fans cheered loudly during the match.,1
+He made a fresh fruit salad.,The pasta was cooked perfectly.,0
+The teacher explained the lesson clearly.,He ordered a burger with fries.,1
+A strong wind blew across the field.,The sky was clear and blue.,0
+Fans cheered loudly during the match.,He submitted his project on time.,1
+He made a fresh fruit salad.,The pasta was cooked perfectly.,0
+She studied all night for her exams.,He ordered a burger with fries.,1
+He made a fresh fruit salad.,They enjoyed dinner at the restaurant.,0
+Dark clouds gathered above the city.,She packed her bags for the vacation.,1
+He ordered a burger with fries.,The pasta was cooked perfectly.,0
+Fans cheered loudly during the match.,The pasta was cooked perfectly.,1
+She packed her bags for the vacation.,He booked a flight to New York.,0
+The sky was clear and blue.,She packed her bags for the vacation.,1
+Fans cheered loudly during the match.,The coach praised the best performer.,0
+She solved all the math problems correctly.,The team celebrated after scoring.,1
+They enjoyed dinner at the restaurant.,He made a fresh fruit salad.,0
+They visited the Eiffel Tower in Paris.,The sun shone brightly this morning.,1
+The soup was warm and delicious.,She baked a chocolate cake.,0
+She packed her bags for the vacation.,She solved all the math problems correctly.,1
+The sun shone brightly this morning.,The sky was clear and blue.,0
+He ordered a burger with fries.,The temperature dropped suddenly.,1
+They visited the Eiffel Tower in Paris.,He clicked pictures at the beach.,0
+The coach praised the best performer.,The students attended the lecture.,1
+He made a fresh fruit salad.,He ordered a burger with fries.,0
+He clicked pictures at the beach.,She baked a chocolate cake.,1
+He booked a flight to New York.,The train arrived at the station on time.,0
+They visited the Eiffel Tower in Paris.,He kicked the football into the goal.,1
+He made a fresh fruit salad.,The pasta was cooked perfectly.,0
+The coach praised the best performer.,The pasta was cooked perfectly.,1
+Fans cheered loudly during the match.,The coach praised the best performer.,0
+She baked a chocolate cake.,The students attended the lecture.,1
+They practiced shooting before the game.,Fans cheered loudly during the match.,0
+Fans cheered loudly during the match.,The soup was warm and delicious.,1
+He ordered a burger with fries.,The soup was warm and delicious.,0
+The team celebrated after scoring.,She packed her bags for the vacation.,1
+They visited the Eiffel Tower in Paris.,She packed her bags for the vacation.,0
+They enjoyed the mountain view from the hotel.,The soup was warm and delicious.,1
+The sky was clear and blue.,A strong wind blew across the field.,0
+She solved all the math problems correctly.,A strong wind blew across the field.,1
+He submitted his project on time.,She studied all night for her exams.,0
+She solved all the math problems correctly.,The coach praised the best performer.,1
+She packed her bags for the vacation.,They visited the Eiffel Tower in Paris.,0
+They practiced shooting before the game.,They enjoyed dinner at the restaurant.,1
+She packed her bags for the vacation.,He clicked pictures at the beach.,0
+The teacher explained the lesson clearly.,He ordered a burger with fries.,1
+The library was full of readers.,He submitted his project on time.,0
+The team celebrated after scoring.,The sky was clear and blue.,1
+He kicked the football into the goal.,The player trained hard every day.,0
+The sky was clear and blue.,She studied all night for her exams.,1
+The library was full of readers.,He submitted his project on time.,0
+The coach praised the best performer.,He made a fresh fruit salad.,1
+Dark clouds gathered above the city.,It rained heavily throughout the night.,0
+The team celebrated after scoring.,She solved all the math problems correctly.,1
+She solved all the math problems correctly.,She studied all night for her exams.,0
+He clicked pictures at the beach.,The sun shone brightly this morning.,1
+The player trained hard every day.,The team celebrated after scoring.,0
+It rained heavily throughout the night.,They visited the Eiffel Tower in Paris.,1
+They practiced shooting before the game.,The player trained hard every day.,0
+The library was full of readers.,They enjoyed the mountain view from the hotel.,1
+They practiced shooting before the game.,Fans cheered loudly during the match.,0
+The teacher explained the lesson clearly.,It rained heavily throughout the night.,1
+She packed her bags for the vacation.,They enjoyed the mountain view from the hotel.,0
+The train arrived at the station on time.,The temperature dropped suddenly.,1
+They enjoyed the mountain view from the hotel.,He booked a flight to New York.,0
+He kicked the football into the goal.,The sky was clear and blue.,1
+He made a fresh fruit salad.,They enjoyed dinner at the restaurant.,0
+It rained heavily throughout the night.,They practiced shooting before the game.,1
+They enjoyed the mountain view from the hotel.,The train arrived at the station on time.,0
+The team celebrated after scoring.,The train arrived at the station on time.,1
+The train arrived at the station on time.,She packed her bags for the vacation.,0
+The coach praised the best performer.,The students attended the lecture.,1
+The sun shone brightly this morning.,A strong wind blew across the field.,0
+The teacher explained the lesson clearly.,A strong wind blew across the field.,1
+He submitted his project on time.,She studied all night for her exams.,0
+The train arrived at the station on time.,She baked a chocolate cake.,1
+The teacher explained the lesson clearly.,He submitted his project on time.,0
+She solved all the math problems correctly.,The sun shone brightly this morning.,1
+It rained heavily throughout the night.,A strong wind blew across the field.,0
+A strong wind blew across the field.,The train arrived at the station on time.,1
+He booked a flight to New York.,The train arrived at the station on time.,0
+They enjoyed the mountain view from the hotel.,He made a fresh fruit salad.,1
+Fans cheered loudly during the match.,He kicked the football into the goal.,0
+They visited the Eiffel Tower in Paris.,They practiced shooting before the game.,1
+He submitted his project on time.,She studied all night for her exams.,0
+The library was full of readers.,The team celebrated after scoring.,1
+The teacher explained the lesson clearly.,He submitted his project on time.,0
+The library was full of readers.,They visited the Eiffel Tower in Paris.,1
+The pasta was cooked perfectly.,He made a fresh fruit salad.,0
+A strong wind blew across the field.,He booked a flight to New York.,1
+The player trained hard every day.,He kicked the football into the goal.,0
+He kicked the football into the goal.,The soup was warm and delicious.,1
+A strong wind blew across the field.,It rained heavily throughout the night.,0
+The library was full of readers.,The team celebrated after scoring.,1
+She solved all the math problems correctly.,The students attended the lecture.,0
+She baked a chocolate cake.,He kicked the football into the goal.,1
+A strong wind blew across the field.,The sky was clear and blue.,0
+They practiced shooting before the game.,He submitted his project on time.,1
+The soup was warm and delicious.,He made a fresh fruit salad.,0
+He booked a flight to New York.,The pasta was cooked perfectly.,1
+Fans cheered loudly during the match.,The coach praised the best performer.,0
+He kicked the football into the goal.,The teacher explained the lesson clearly.,1
+It rained heavily throughout the night.,The sun shone brightly this morning.,0
+A strong wind blew across the field.,The coach praised the best performer.,1
+She packed her bags for the vacation.,The train arrived at the station on time.,0
+Dark clouds gathered above the city.,The library was full of readers.,1
+The player trained hard every day.,He kicked the football into the goal.,0
+The students attended the lecture.,She baked a chocolate cake.,1
+Fans cheered loudly during the match.,They practiced shooting before the game.,0
+The sun shone brightly this morning.,He made a fresh fruit salad.,1
+The team celebrated after scoring.,Fans cheered loudly during the match.,0
+She packed her bags for the vacation.,It rained heavily throughout the night.,1
+The train arrived at the station on time.,He booked a flight to New York.,0
+They visited the Eiffel Tower in Paris.,He submitted his project on time.,1
+They visited the Eiffel Tower in Paris.,They enjoyed the mountain view from the hotel.,0
+He ordered a burger with fries.,The teacher explained the lesson clearly.,1
+She packed her bags for the vacation.,He clicked pictures at the beach.,0
+The sky was clear and blue.,He clicked pictures at the beach.,1
+She baked a chocolate cake.,He made a fresh fruit salad.,0
+He ordered a burger with fries.,She packed her bags for the vacation.,1
+He submitted his project on time.,The teacher explained the lesson clearly.,0
+He booked a flight to New York.,The coach praised the best performer.,1
+He booked a flight to New York.,They enjoyed the mountain view from the hotel.,0
+The coach praised the best performer.,They visited the Eiffel Tower in Paris.,1
+They enjoyed the mountain view from the hotel.,They visited the Eiffel Tower in Paris.,0
+She baked a chocolate cake.,The sun shone brightly this morning.,1
+He kicked the football into the goal.,The team celebrated after scoring.,0
+She studied all night for her exams.,He made a fresh fruit salad.,1
+She solved all the math problems correctly.,The teacher explained the lesson clearly.,0
+Dark clouds gathered above the city.,The library was full of readers.,1
+The coach praised the best performer.,Fans cheered loudly during the match.,0
+The team celebrated after scoring.,The library was full of readers.,1
+The player trained hard every day.,Fans cheered loudly during the match.,0
+The team celebrated after scoring.,Dark clouds gathered above the city.,1
+The temperature dropped suddenly.,It rained heavily throughout the night.,0
+Dark clouds gathered above the city.,They enjoyed the mountain view from the hotel.,1
+They enjoyed the mountain view from the hotel.,They visited the Eiffel Tower in Paris.,0
+The train arrived at the station on time.,A strong wind blew across the field.,1
+They enjoyed the mountain view from the hotel.,She packed her bags for the vacation.,0
+The soup was warm and delicious.,The train arrived at the station on time.,1
+She packed her bags for the vacation.,He booked a flight to New York.,0
+He submitted his project on time.,They practiced shooting before the game.,1
