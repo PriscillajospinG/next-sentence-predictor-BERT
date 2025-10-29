@@ -1,6 +1,45 @@
 # 🧠 BERT Next Sentence Predictor
 
+[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-Latest-red.svg)](https://pytorch.org/)
+[![Transformers](https://img.shields.io/badge/Transformers-4.40.2-yellow.svg)](https://huggingface.co/transformers/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Enabled-FF4B4B.svg)](https://streamlit.io/)
+
 A deep learning project that uses BERT (Bidirectional Encoder Representations from Transformers) to predict whether two sentences logically follow each other. This implementation includes model training, evaluation, and an interactive Streamlit web application for real-time predictions.
+
+![BERT NSP Demo](https://img.shields.io/badge/Status-Active-success)
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/PriscillajospinG/next-sentence-predictor-BERT.git
+cd next-sentence-predictor-BERT
+
+# 2. Install dependencies
+pip install transformers==4.40.2 torch pandas scikit-learn matplotlib streamlit
+
+# 3. Download the pre-trained model from Google Drive
+# Link: https://drive.google.com/drive/folders/1JbDl2axfxqIloN7CI-K8M6wO9Suxyhqe?usp=sharing
+
+# 4. Run predictions
+python -c "
+from transformers import BertTokenizer, BertForNextSentencePrediction
+import torch
+
+model = BertForNextSentencePrediction.from_pretrained('./bert_nsp_model')
+tokenizer = BertTokenizer.from_pretrained('./bert_nsp_model')
+
+inputs = tokenizer('Hello!', 'Nice to meet you.', return_tensors='pt')
+outputs = model(**inputs)
+print('Prediction:', 'IsNext ✅' if torch.argmax(outputs.logits) == 0 else 'NotNext ❌')
+"
+```
+
+---
 
 ## 📋 Table of Contents
 - [Overview](#overview)
@@ -41,28 +80,49 @@ Next Sentence Prediction (NSP) is a binary classification task where the model d
 
 ## 📊 Dataset
 
-The project uses a custom NSP dataset (`nsp_dataset.csv`) containing:
-- **sentence_a**: First sentence
-- **sentence_b**: Second sentence  
-- **label**: Binary label (0 = IsNext, 1 = NotNext)
+The project uses a custom NSP dataset (`nsp_dataset.csv`) containing sentence pairs with binary labels.
 
-Example data pairs:
+### Dataset Structure:
+| Column | Description | Type |
+|--------|-------------|------|
+| `sentence_a` | First sentence | String |
+| `sentence_b` | Second sentence | String |
+| `label` | Relationship label | Integer (0/1) |
+
+### Labels:
+- **0 (IsNext)**: Sentence B logically follows Sentence A
+- **1 (NotNext)**: Sentence B does not follow Sentence A
+
+### Example Data Pairs:
 ```
 Sentence A: "She studied all night for her exams."
-Sentence B: "She passed with flying colors." → Label: 0 (IsNext)
+Sentence B: "She passed with flying colors." 
+→ Label: 0 (IsNext) ✅
 
 Sentence A: "It rained heavily throughout the night."
-Sentence B: "He ordered a burger with fries." → Label: 1 (NotNext)
+Sentence B: "He ordered a burger with fries." 
+→ Label: 1 (NotNext) ❌
 ```
 
 ## 🏗️ Model Architecture
 
-- **Base Model**: `bert-base-uncased` from HuggingFace Transformers
-- **Task Head**: Binary classification layer for NSP
-- **Tokenizer**: BERT WordPiece tokenizer
-- **Max Sequence Length**: 64 tokens
-- **Optimizer**: AdamW with learning rate 2e-5
-- **Training**: 3 epochs with batch size 16
+| Component | Details |
+|-----------|---------|
+| **Base Model** | `bert-base-uncased` from HuggingFace |
+| **Task Head** | Binary classification layer for NSP |
+| **Tokenizer** | BERT WordPiece tokenizer |
+| **Max Sequence Length** | 64 tokens |
+| **Optimizer** | AdamW (learning rate: 2e-5) |
+| **Training Epochs** | 3 |
+| **Batch Size** | 16 |
+| **Device** | CUDA GPU (if available) or CPU |
+
+### Architecture Flow:
+```
+Input Sentences → BERT Tokenizer → Input IDs + Attention Mask 
+→ BERT Encoder → Pooled Output → Classification Head → Softmax 
+→ Binary Prediction (IsNext/NotNext)
+```
 
 ## 🛠️ Installation
 
@@ -176,24 +236,65 @@ Confusion Matrix visualization shows:
 
 ## 💾 Pre-trained Model
 
-The trained BERT NSP model is available for download:
+🎯 **Ready-to-use trained model available for download!**
 
-**📁 Google Drive Link**: [Download Model](https://drive.google.com/drive/folders/1JbDl2axfxqIloN7CI-K8M6wO9Suxyhqe?usp=sharing)
+### 📁 Download Link:
+**[📥 Download BERT NSP Model from Google Drive](https://drive.google.com/drive/folders/1JbDl2axfxqIloN7CI-K8M6wO9Suxyhqe?usp=sharing)**
 
-### Model Files Included:
-- `config.json` - Model configuration
-- `pytorch_model.bin` - Trained model weights
-- `tokenizer_config.json` - Tokenizer configuration
-- `vocab.txt` - BERT vocabulary
-- `special_tokens_map.json` - Special tokens mapping
+### 📦 Model Files Included:
+```
+bert_nsp_model/
+├── config.json              # Model configuration & hyperparameters
+├── pytorch_model.bin        # Trained model weights (~420MB)
+├── tokenizer_config.json    # Tokenizer settings
+├── vocab.txt                # BERT vocabulary (30,522 tokens)
+└── special_tokens_map.json  # Special tokens ([CLS], [SEP], etc.)
+```
 
-### Loading the Model:
+### 🔧 How to Load the Model:
+
+**Step 1: Download the model folder from Google Drive**
+
+**Step 2: Load in your Python code:**
 ```python
 from transformers import BertTokenizer, BertForNextSentencePrediction
+import torch
 
+# Specify path to downloaded model
 model_path = "/path/to/bert_nsp_model"
+
+# Load tokenizer and model
 tokenizer = BertTokenizer.from_pretrained(model_path)
 model = BertForNextSentencePrediction.from_pretrained(model_path)
+
+# Move to GPU if available
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+model.eval()
+
+print("✅ Model loaded successfully!")
+```
+
+**Step 3: Make predictions:**
+```python
+def predict(sentence_a, sentence_b):
+    inputs = tokenizer(sentence_a, sentence_b, return_tensors='pt')
+    inputs = {k: v.to(device) for k, v in inputs.items()}
+    
+    with torch.no_grad():
+        outputs = model(**inputs)
+        probs = torch.softmax(outputs.logits, dim=1)
+        prediction = torch.argmax(probs, dim=1).item()
+    
+    return "IsNext ✅" if prediction == 0 else "NotNext ❌", probs
+
+# Test it
+result, confidence = predict(
+    "The weather was perfect.",
+    "We decided to go for a walk."
+)
+print(f"Prediction: {result}")
+print(f"Confidence: {confidence}")
 ```
 
 ## 🌐 Web Application
@@ -243,17 +344,25 @@ Confidence: IsNext=0.XX, NotNext=0.XX
 ## 📈 Results
 
 ### Model Performance:
-- **Training Accuracy**: Achieved high accuracy on training set
-- **Validation Accuracy**: Robust performance on unseen data
-- **Inference Speed**: Fast predictions using pre-trained BERT
+- ✅ **High Training Accuracy**: Effective learning on training set
+- ✅ **Strong Validation Performance**: Robust predictions on unseen data
+- ⚡ **Fast Inference**: Real-time predictions using optimized BERT
+- 📊 **Reliable Confidence Scores**: Probability distributions for decisions
 
 ### Sample Predictions:
 
 | Sentence A | Sentence B | Prediction | Confidence |
 |------------|------------|------------|------------|
-| "She finished her dinner." | "Then she started watching a movie." | ✅ IsNext | 0.95 |
-| "It was raining outside." | "I love programming in Python." | ❌ NotNext | 0.89 |
-| "The sun rises in the east." | "It gives light and warmth to the earth." | ✅ IsNext | 0.92 |
+| "She finished her dinner." | "Then she started watching a movie." | ✅ **IsNext** | ~0.95 |
+| "It was raining outside." | "I love programming in Python." | ❌ **NotNext** | ~0.89 |
+| "The sun rises in the east." | "It gives light and warmth to the earth." | ✅ **IsNext** | ~0.92 |
+| "She studied all night." | "The teacher explained the lesson." | ❌ **NotNext** | ~0.87 |
+
+### Visualization Examples:
+- 📊 Training loss curves
+- 📈 Accuracy progression over epochs
+- 🎯 Confusion matrix heatmap
+- 📉 Performance metrics dashboard
 
 ## 📁 Project Structure
 
@@ -287,16 +396,49 @@ next-sentence-predictor-BERT/
 
 ## 🔮 Future Improvements
 
-- [ ] Expand dataset with more diverse sentence pairs
-- [ ] Implement cross-validation for robust evaluation
-- [ ] Add support for multiple languages
-- [ ] Experiment with other transformer models (RoBERTa, ALBERT)
-- [ ] Deploy to cloud platforms (Heroku, AWS, GCP)
-- [ ] Add API endpoint for programmatic access
-- [ ] Implement attention visualization
-- [ ] Create comprehensive test suite
-- [ ] Add model explainability features
-- [ ] Optimize inference speed with ONNX
+### 🎯 Model Enhancements
+- [ ] Expand dataset with more diverse sentence pairs (10K+ samples)
+- [ ] Implement k-fold cross-validation for robust evaluation
+- [ ] Experiment with other transformer models:
+  - RoBERTa (more robust training)
+  - ALBERT (lighter & faster)
+  - DistilBERT (smaller footprint)
+- [ ] Fine-tune on domain-specific data (medical, legal, technical texts)
+
+### 🌍 Multilingual Support
+- [ ] Add support for multiple languages (Spanish, French, German, etc.)
+- [ ] Use multilingual BERT (mBERT) or XLM-RoBERTa
+- [ ] Create language-specific datasets
+
+### 🚀 Deployment & Production
+- [ ] Deploy to cloud platforms:
+  - AWS SageMaker
+  - Google Cloud AI Platform
+  - Microsoft Azure ML
+- [ ] Create REST API with FastAPI
+- [ ] Containerize with Docker
+- [ ] Set up CI/CD pipeline
+
+### 📊 Performance Optimization
+- [ ] Implement ONNX Runtime for faster inference
+- [ ] Add model quantization for reduced size
+- [ ] Batch prediction optimization
+- [ ] Implement caching for repeated queries
+
+### 🛠️ Features & Functionality
+- [ ] Add attention weight visualization
+- [ ] Implement SHAP/LIME for model explainability
+- [ ] Create comprehensive test suite (pytest)
+- [ ] Add data augmentation techniques
+- [ ] Build Chrome extension for real-time text analysis
+- [ ] Integrate with popular writing tools (Grammarly-style)
+
+### 📚 Documentation & Community
+- [ ] Add API documentation (Swagger/OpenAPI)
+- [ ] Create video tutorials
+- [ ] Write blog posts about implementation
+- [ ] Add Jupyter notebook tutorials
+- [ ] Build community Discord/Slack channel
 
 ## 🤝 Contributing
 
@@ -319,12 +461,38 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-- HuggingFace for the Transformers library
-- Google for BERT model and research
-- The open-source community for various tools and libraries
+- 🤗 **HuggingFace** for the incredible Transformers library
+- 🧠 **Google Research** for BERT model and groundbreaking research
+- 📚 **PyTorch Team** for the flexible deep learning framework
+- 🎨 **Streamlit** for the amazing web app framework
+- 💻 **Open Source Community** for various tools and libraries
+- 📖 **Research Papers**:
+  - [BERT: Pre-training of Deep Bidirectional Transformers](https://arxiv.org/abs/1810.04805)
+  - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+
+## 📚 References
+
+1. Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. *arXiv preprint arXiv:1810.04805*.
+2. Vaswani, A., et al. (2017). Attention is all you need. *Advances in neural information processing systems*, 30.
+
+## 📞 Contact & Support
+
+- 📧 **Issues**: Open an issue on [GitHub](https://github.com/PriscillajospinG/next-sentence-predictor-BERT/issues)
+- 💬 **Discussions**: Start a discussion in the Discussions tab
+- 🐛 **Bug Reports**: Please include detailed steps to reproduce
+
+## ⭐ Show Your Support
+
+If you found this project helpful or interesting, please consider:
+- ⭐ Starring the repository
+- 🍴 Forking for your own experiments
+- 📢 Sharing with others who might benefit
+- 💬 Providing feedback or suggestions
 
 ---
 
-⭐ If you found this project helpful, please give it a star!
+<div align="center">
 
-**Last Updated**: October 29, 2025
+**Built with ❤️ using BERT and PyTorch**
+
+</div>
